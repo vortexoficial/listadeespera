@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formação Líder Especialista</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="WORKSHOP GPS 2.O - A Inovação da Gestão" />
+  <meta property="og:description" content="Workshop presencial que vai transformar a forma de liderar e gerir sua empresa." />
+  <meta property="og:image" content="assets/images/logo/logo.png" />
+  <meta property="og:url" content="URL-do-seu-site-ou-página" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/x-icon/01.png" />
+
+  <!-- Fontes e Ícones -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/icofont.min.css" />
+  <link rel="stylesheet" href="assets/css/lightcase.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body style="font-family: 'Roboto', sans-serif; background-color: #0a1b24; color: #ffffff;">
+
+  <!-- Loader -->
+  <div class="loader"></div>
+
+  <!-- ==========Banner Section========== -->
+  <section style="padding: 20px 0 10px 0; text-align: center;">
+    <div class="container">
+      <div class="banner-wrapper">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-12 text-center">
+            <div class="banner-content">
+              <img src="assets/images/logo/logo.png" width="65%" class="mx-auto d-block" style="margin-top: 0;" /><br /><br />
+              <h2 class="mb-0" style="color: #ffffff;">
+                Preencha a <span style="color: #cab660;">lista de espera</span> abaixo.
+              </h2>
+              <p style="font-size: 22px; font-weight: 300; line-height: 1.3; color: #fff; text-align: center; margin-top: 10px;">
+                Cadastre-se e garanta sua vaga.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========Formulário + GIF Section========== -->
+  <section id="investimento" class="event-gift-section" style="padding-top: 10px;">
+    <div class="container">
+      <div class="row justify-content-center align-items-start">
+
+        <div class="col-lg-6 col-12 order-lg-1 order-2">
+          <div class="video-part">
+            <a href="#ticket-info-section">
+              <img src="assets/videos/video.gif" alt="gift-img" style="width: 100%; border-radius: 15px;" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12 order-lg-2 order-1 d-flex align-items-center justify-content-center">
+          <div style="width: 100%;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1d5pKDbcv1VaylQV_6c2Kz0au3bmDuAfPjtIxrx6Lris5MA/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll suave -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("a").forEach(button => {
+        if (button.getAttribute("href") === "#investimento") {
+          button.addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("investimento").scrollIntoView({ behavior: "smooth" });
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
